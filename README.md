@@ -1,17 +1,61 @@
 
-# Demo QA Testing
+# Selenium Automation Testing – DemoQA Website
 
-Hi — I'm learning test automation. This repo has a few simple Selenium tests I wrote while practicing.
+## Project Overview
 
-What is here
+This project contains automated test scripts using Selenium WebDriver and Pytest for the DemoQA website. The purpose is to practice automation of different web elements like alerts, windows/tabs, and forms.
 
-- Basic pytest tests: alerts, browser windows, and a form submission.
+## Features Tested
 
+### Alerts Handling
+- Simple Alert
+- Timer Alert
+- Confirm Alert (Accept/Dismiss)
+- Prompt Alert (Enter text and submit)
 
-Notes
+### Browser Windows & Tabs
+- Open new tab
+- Open new window
+- Switch between windows/tabs
+- Validate content on new tab/window
 
-- I used `webdriver-manager` so you usually don't need to download browser drivers yourself.
-- These tests were written for learning — they may need tweaks on different browsers or OS versions.
-- If installs fail, try `python -m pip install --upgrade pip setuptools wheel` and then retry.
+### Form Submission
+- Fill text fields (Name, Email, Mobile, Address)
+- Select gender and hobbies
+- Choose date of birth
+- Enter subjects
+- Upload picture
+- Select state and city
+- Submit form and validate success message
 
+## Tools & Technologies
+
+### Programming Language
+- Python
+
+### Automation Tool
+- Selenium WebDriver
+
+### Test Framework
+- Pytest
+
+### Web Browser
+- Google Chrome
+
+### Driver Manager
+- webdriver_manager (for automatic ChromeDriver setup)
+
+### Python Libraries
+
+| Library | Purpose |
+|---------|---------|
+| `selenium` | Web automation framework |
+| `pytest` | Test framework |
+| `webdriver_manager` | Automatic driver management |
+| `os` | File upload operations |
+
+## Prerequisites
+
+- Python 3.7+
+- Google Chrome browser
 
